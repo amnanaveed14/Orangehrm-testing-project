@@ -17,8 +17,8 @@ The purpose of this project is to perform automated and manual testing to valida
 
 ## Tools & Technologies
 
-- **Testing Frameworks:** Selenium WebDriver, TestNG (if Java) / PyTest (if Python)  
-- **Languages:** Java / Python / JavaScript (depending on your scripts)  
+- **Testing Frameworks:** Selenium WebDriver 
+- **Languages:** Java / Python / JavaScript 
 - **Reporting:** HTML reports / Screenshots  
 - **Browser:** Chrome / Firefox  
 
@@ -30,9 +30,8 @@ OrangeHRM-Testing/
 │
 ├─ tests/ # Test scripts
 ├─ reports/ # Test reports
-├─ screenshots/ # Captured screenshots of test cases
+├─ screenshots/
 ├─ README.md
-└─ requirements.txt # (if Python) or pom.xml (if Java Maven project)
 
 
 ---
