@@ -26,3 +26,39 @@ The purpose of this project is to perform automated and manual testing to valida
 
 ## Project Structure
 
+OrangeHRM-Testing/
+│
+├─ tests/ # Test scripts
+├─ reports/ # Test reports
+├─ screenshots/ # Captured screenshots of test cases
+├─ README.md
+└─ requirements.txt # (if Python) or pom.xml (if Java Maven project)
+
+
+---
+
+## How to Run Tests
+
+1. Install required dependencies:
+   - **Python**: `pip install -r requirements.txt`  
+   - **Java (Maven)**: `mvn install`  
+
+2. Run tests:
+   - **Python:**  
+     ```bash
+     pytest tests/
+     ```
+   - **Java (TestNG):**  
+     ```bash
+     mvn test
+     ```
+
+3. View reports in `reports/` folder.
+
+---
+
+## Author
+
+**Amina Naveed**  
+- GitHub: [amnanaveed14](https://github.com/amnanaveed14)  
+- LinkedIn: [your-linkedin](https://www.linkedin.com/in/yourusername)
